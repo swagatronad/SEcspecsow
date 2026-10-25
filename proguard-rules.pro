@@ -1,0 +1,5 @@
+-keep class com.secscan.ScanWorker { *; }
+-keep class com.secscan.MainActivity { *; }
+-keep class com.topjohnwu.superuser.** { *; }
+-dontwarn **
+-ignorewarnings
